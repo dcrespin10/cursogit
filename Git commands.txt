@@ -1,0 +1,29 @@
+
+Git 
+sistema de control de versiones 
+
+git init | solo se ejecuta cuando se comienza a dar seguimiento al proyecto.
+Se crean dos area = Staging Area y Repositorio Local
+
+git add | 
+Manda archivo a staging area 
+
+git commit | 
+Envia archivo al repositorio local
+
+git status -s
+Brinda información del estatus de los archivos
+?? index.html | en este caso muestra que el archivo no tiene seguimiento por git
+
+git add index.html
+Agregamos al archivo al staging area | A  index.html
+
+$ git commit -m "Comienzo del proyecto" index.html
+Enviamos el proyecto al repositorio
+
+
+
+
+
+
+
