@@ -21,6 +21,40 @@ Agregamos al archivo al staging area | A  index.html
 $ git commit -m "Comienzo del proyecto" index.html
 Enviamos el proyecto al repositorio
 
+Modificamos el index.html luego del commit y al ver su status, se muestra asi:
+M index.html
+
+CADA VEZ QUE SE MODIFICA UN ARCHIVO ES NECESARIO ENVIARLO A  stating area Y LUEGO 
+HACER commit
+
+Ver registro de archivos enviados al repositorio local
+git log --oneline
+se muestra asi:
+8446a91 (HEAD -> master) Se agrego h1 y un parrafo
+e03c664 Comienzo del proyecto
+
+Restaurar archivo a una version anterior
+git reset --hard "id de version"
+los archivos se restauran a esa versión y las anteriores a esta se borran
+
+***********************************************************************************
+SUBIR PROYECTOS A GIT HUB
+
+git add . | se agregan al seguimiento todos los archivos del proyecto
+
+git commit --amend | abre vim para modificar el nombre de la ultima version subida
+
+Crear cuenta en GIT HUB
+Para subir repositorio local a github 
+git remote add origin https://github.com/dcrespin10/cursogit.git
+
+
+
+
+
+
+
+
 
 
 
